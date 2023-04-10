@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:minecraft;
+    src: url(mine2.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 1%;
+    background-color: #84a04c;
+    padding: 1rem;
+    box-shadow: #00000040 15px 10px 20px;
+    width: 18rem;
+    height: 5rem;
+    color: #5c442c;
+    border-radius: 2rem;
+    font-family:'minecraft';
+}
+
+.frase{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #84a04c;
+    color: #5c442c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img{
+    margin-top: -20rem;
+    margin-right: 70rem;
+    
+   
+}
+
+footer{
+    background-color: #5c442c;
+    color: #84a04c;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    top: 25.8rem;
+    padding: -9rem;
+    width: 81.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.icons{
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    width: 38px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.icons:hover{
+    opacity: 0.8;
+}
